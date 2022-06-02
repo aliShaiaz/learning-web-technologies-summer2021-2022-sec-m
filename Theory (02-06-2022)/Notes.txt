@@ -1,0 +1,15 @@
+Tags:
+
+-LineBreak <br/>
+-Center <center>
+-headers
+-paragraph
+-OrderList <ol>
+  -List <li>
+-UnorderdList <ul>
+-Table <tr> <td>
+-<td colspan="2"></td>
+-<td rowspan="2"></td>
+-image tag <img src="" width="px" height="px">
+-anchor tag <a href=""> 'Text' </a>
+
