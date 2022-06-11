@@ -1,4 +1,7 @@
 <?php
+// Problem Set //
+
+
 
 // Problem 1  // 
 echo "<h1>Problem 1:</h1>";
@@ -96,7 +99,7 @@ for ($i = 0; $i < $x; $i++)
 {
     for ($j = 0; $j < $y; $j++)
     {
-        echo "*";
+        echo " * ";
     }
     $y -= 1;
     echo "<br>";
@@ -113,7 +116,7 @@ for ($i = 0; $i < $x; $i++)
     for ($j = 0; $j < $y; $j++)
     {
         $z = $j + 1;
-        echo $z;
+        echo " $z ";
     }
     $y -= 1;
     echo "<br>";
@@ -127,9 +130,9 @@ $z = 'A';
 
 for ($i = 0; $i < $x; $i++)
 {
-    for ($j = 0; $j < $y; $j++)
+    for ($j = 0; $j <= $i; $j++)
     {
-        echo $z;
+        echo " $z ";
         $z++;
     }
     $y -= 1;
@@ -142,6 +145,33 @@ for ($i = 0; $i < $x; $i++)
 
 // Problem 8//
 echo "<h1>Problem 8:</h1>";
+
+$x = 3;
+$y = 4;
+
+$a = [
+    [1, 2, 3, 'A'],
+    [1, 2, 'B', 'C'],
+    [1, 'D', 'E', 'F']
+];
+
+$z = 3;
+
+for ($i = 0; $i < $x; $i++)
+{
+    for ($j = 0; $j < $y; $j++)
+    {
+        if ($z == $j)
+        {
+            echo " .  . ";
+            $z--;
+        }
+        echo " ".$a[$i][$j]." ";
+
+    }
+
+    echo "<br>";
+} 
 
 
 
