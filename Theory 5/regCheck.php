@@ -17,7 +17,6 @@ if (isset($_POST['update'])) {
 	}
 } else {
 
-	echo "ERROR!!!";
 
 	session_start();
 
