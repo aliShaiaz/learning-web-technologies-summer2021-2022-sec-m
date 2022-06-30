@@ -21,7 +21,7 @@ if (isset($_POST['signup'])) {
         fwrite($file, $user);
 
 
-        header('location: ../signin/signin.php');
+        header('location: ..../lab5 exam/signin/signin.php');
     }
 } else {
     header("location: ../SignIn/signin.php");
